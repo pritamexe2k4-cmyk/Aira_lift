@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Aira Lift</title>
+  <link rel="stylesheet" href="/static/app.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">Aira Lift</div>
+      <div id="top-meta" class="muted"></div>
+    </header>
+    <main id="view"></main>
+    <nav id="tabbar" class="tabbar hidden" aria-label="Main">
+      <button type="button" data-tab="home" class="tab">
+        <span class="ico">⌂</span><span>Home</span>
+      </button>
+      <button type="button" data-tab="workout" class="tab tab-center" aria-label="Workout">
+        <span class="plus">+</span>
+      </button>
+      <button type="button" data-tab="history" class="tab">
+        <span class="ico">☰</span><span>History</span>
+      </button>
+      <button type="button" data-tab="more" class="tab">
+        <span class="ico">◎</span><span>More</span>
+      </button>
+    </nav>
+  </div>
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
